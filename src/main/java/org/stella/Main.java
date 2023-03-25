@@ -55,7 +55,7 @@ public class Main
         try
         {
             Program ast = t.parse();
-            TypeCheck.typecheckProgram(ast);
+            TypeCheck.typeCheckProgram(ast);
 
             if (args.length > 0) {
                 stellaLexer l;
